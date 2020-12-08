@@ -1,0 +1,144 @@
+#register {
+    display: none;
+}
+#register.show {
+    width: 100vw;
+    height: 110vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 70vw;
+    left: 0;
+    padding: 3rem 10rem 10rem 10rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.arrow-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.arrow-container img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.text_register {
+    width: 23rem;
+    font-size: 2.1rem;
+    color: #fff;
+}
+.register_block {
+    width: 26rem;
+    height: 35rem;
+    background-color:#fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#text {
+    width: 14rem;
+    text-align: center;
+}
+#text span {
+    font-size: 1.8rem;
+    white-space: wrap;
+    font-weight: bold;
+}
+.register_block p {
+    white-space: nowrap;
+    color: #444;
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+} 
+.input-block { 
+    margin-top: 0.4rem;
+}
+.input-block input {
+    width: 15rem;
+    outline: none;
+    height: 2.6rem;
+    padding: 0 1rem ;
+    border-radius: 0.8rem;
+    border: 1px solid #8888;
+}
+.input-block input:focus {
+    border: 3px solid rgb(107, 193, 243);
+}
+
+.sing-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+.sing-up button {
+    width: 15rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #E60023;
+    color: #fff;
+}
+.sing-up p {
+    margin: 0.5rem;
+    color: #111;
+}
+.sing-up-facebook  a, .sing-up-google a {
+    text-decoration: none;
+}
+.sing-up .sing-up-facebook {
+    width: 16rem;
+    height: 2.3rem;
+    background-color: #4267b2;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 0 0.5rem;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.sing-up-facebook img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.sing-up-facebook a {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.sing-up .sing-up-google {
+    width: 16rem;
+    height: 2.3rem;
+    margin-top: 0.6rem;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 0 0.5rem;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.sing-up-google img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.sing-up-google a {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+}

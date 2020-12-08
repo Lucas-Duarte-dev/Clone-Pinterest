@@ -1,0 +1,55 @@
+header {
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+header h3 {
+    color: #E60023;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li + li{
+    margin-left:1.3rem;
+}
+ul li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+.sing-in {
+    margin-left:  2.7rem;
+}
+.sing-in span + span { 
+    margin-left: 1.4rem;
+}
+
+.sing-in .entrar{
+    background-color: #E60023;
+    color: #fff;
+    padding: 0.6rem 0.8rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sing-in .entrar:hover {
+    background-color: #a3081a;
+}
+.sing-in .cadastrar {
+    background-color: #e6e6e6;
+    color: #111;
+    padding: 0.6rem 0.8rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
